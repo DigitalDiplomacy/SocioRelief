@@ -67,17 +67,3 @@ By clustering countries with similar disaster vulnerability and socio-economic p
 - 📊 Policy Makers → Design risk-based disaster relief policies  
 - 🌐 International Agencies → Prioritize funding for most vulnerable regions  
 
----
-
-## 📂 Project Structure  
-
-
-🚀 How to Run
-# Clone this repository
-git clone https://github.com/your-username/ReliefFund-Optimizer.git
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the notebook
-jupyter notebook Disaster_Relief_Fund_Clustering.ipynb
