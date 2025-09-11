@@ -21,7 +21,7 @@ By clustering countries with similar disaster vulnerability and socio-economic p
 ---
 
 ## 🧠 Tech Stack  
-**Language:** Python 3.x  
+**Language:** Python   
 
 **Libraries & Tools:**  
 - `pandas`, `numpy` → Data preprocessing  
