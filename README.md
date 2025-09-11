@@ -1,67 +1,76 @@
-🌍 Disaster Relief Fund Allocation Optimization
+# 🌍 Disaster Relief Fund Allocation Optimization  
+**Optimizing global disaster relief fund distribution using K-Means Clustering & PCA**  
 
-Optimizing global disaster relief fund distribution using K-Means Clustering & PCA
+---
 
-📌 Overview
+## 📌 Overview  
+In times of disasters and natural calamities, **efficient allocation of relief funds** is crucial for minimizing impact and ensuring equitable support.  
+This project leverages **unsupervised machine learning** techniques — **K-Means Clustering** and **Principal Component Analysis (PCA)** — to group countries based on socio-economic indicators and optimize fund allocation.  
 
-In times of disasters and natural calamities, efficient allocation of relief funds is crucial for minimizing impact and ensuring equitable support.
-This project leverages unsupervised machine learning techniques — K-Means Clustering and Principal Component Analysis (PCA) — to group countries based on socio-economic indicators and optimize fund allocation.
+By clustering countries with similar disaster vulnerability and socio-economic profiles, policymakers and NGOs can make **data-driven decisions** for better humanitarian outcomes.  
 
-By clustering countries with similar disaster vulnerability and socio-economic profiles, policymakers and NGOs can make data-driven decisions for better humanitarian outcomes.
+---
 
-🎯 Key Features
+## 🎯 Key Features  
+- ✅ **Exploratory Data Analysis (EDA):** Identified patterns, trends, and outliers across 167 countries  
+- ✅ **Feature Engineering:** Normalized socio-economic and disaster-related indicators  
+- ✅ **Dimensionality Reduction:** Applied PCA to reduce feature space and improve clustering performance  
+- ✅ **Clustering Optimization:** Used **Elbow Method** & **Silhouette Score** to determine the optimal number of clusters  
+- ✅ **Actionable Insights:** Generated clusters to guide equitable disaster relief allocation  
 
-✅ Exploratory Data Analysis (EDA): Identified patterns, trends, and outliers across 167 countries
-✅ Feature Engineering: Normalized socio-economic and disaster-related indicators
-✅ Dimensionality Reduction: Applied PCA to reduce feature space and improve clustering performance
-✅ Clustering Optimization: Used Elbow Method & Silhouette Score to determine the optimal number of clusters
-✅ Actionable Insights: Generated clusters to guide equitable disaster relief allocation
+---
 
-🧠 Tech Stack
+## 🧠 Tech Stack  
+**Language:** Python 3.x  
 
-Language: Python 3.x
+**Libraries & Tools:**  
+- `pandas`, `numpy` → Data preprocessing  
+- `matplotlib`, `seaborn` → EDA & visualization  
+- `scikit-learn` → K-Means, PCA, evaluation metrics  
 
-Libraries & Tools:
+---
 
-pandas, numpy → Data preprocessing
+## 📊 Methodology  
+1. **Data Collection**  
+   - Dataset of 167 countries with socio-economic & disaster-related indicators  
 
-matplotlib, seaborn → EDA & visualization
+2. **Data Preprocessing**  
+   - Handled missing values  
+   - Normalized features using MinMaxScaler/StandardScaler  
 
-scikit-learn → K-Means, PCA, evaluation metrics
+3. **Exploratory Data Analysis (EDA)**  
+   - Visualized distributions, correlations, and trends  
+   - Identified important factors affecting disaster vulnerability  
 
-📊 Methodology
+4. **Dimensionality Reduction**  
+   - Applied **Principal Component Analysis (PCA)**  
+   - Selected top principal components to reduce dimensionality  
 
-Data Collection → Dataset of 167 countries with socio-economic & disaster data
+5. **Clustering**  
+   - Applied **K-Means Clustering**  
+   - Used **Elbow Method** & **Silhouette Score** to choose optimal k  
 
-Data Cleaning & Normalization → Handled missing values, scaled features
+6. **Results & Insights**  
+   - Clustered countries into groups with similar socio-economic and risk profiles  
+   - Generated recommendations for equitable fund allocation  
 
-Exploratory Data Analysis → Visualized distributions, correlations, and trends
+---
 
-PCA → Reduced dimensions to improve interpretability
+## 📈 Results  
+- 📌 **Optimal number of clusters:** Determined using Elbow Method & Silhouette Score  
+- 📌 **Cluster profiles:** High-risk, medium-risk, and low-risk groups identified  
+- 📌 **Visualizations:** PCA scatter plots, cluster visualizations, and EDA charts  
 
-K-Means Clustering → Grouped countries into optimal clusters
 
-Cluster Analysis → Interpreted results to suggest fund allocation strategy
+## 💡 Use Cases  
+- 🏢 NGOs & Governments → Plan equitable disaster aid allocation  
+- 📊 Policy Makers → Design risk-based disaster relief policies  
+- 🌐 International Agencies → Prioritize funding for most vulnerable regions  
 
-📈 Results
+---
 
-Optimal number of clusters determined using Elbow Method & Silhouette Score
+## 📂 Project Structure  
 
-Generated cluster profiles for high, medium, and low-risk regions
-
-Produced visualizations (scatter plots, cluster maps) for actionable insights
-
-💡 Potential Use Cases
-
-NGOs planning equitable disaster aid allocation
-
-Governments designing risk-based relief policies
-
-International agencies prioritizing funding for vulnerable regions
-
-📷 Sample Visualizations
-
-(Insert screenshots/plots here — PCA plots, cluster visualizations, EDA graphs)
 
 🚀 How to Run
 # Clone this repository
