@@ -1,4 +1,4 @@
-# 🌍 Disaster Relief Fund Allocation Optimization  
+# 🌍 SocioRelief
 **Optimizing global disaster relief fund distribution using K-Means Clustering & PCA**  
 
 ---
