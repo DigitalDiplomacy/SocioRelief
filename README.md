@@ -1,0 +1,3 @@
+# Disaster-Relief-Fund-Allocation-Optimization-using-K-Means-Clustering
+
+In times of disasters and natural calamities, effective fund allocation can be challenging. To address this, we developed a fund allocation model using K-Means Clustering and PCA on data from 167 countries to optimize disaster relief distribution based on socio-economic factors. We conducted Exploratory Data Analysis (EDA) to visualize key features and identify patterns for informed fund allocation decisions. Executed feature engineering to normalize data, applied PCA for dimensionality reduction, and utilized silhouette score and elbow method to determine optimal clustering.
